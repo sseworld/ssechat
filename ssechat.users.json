@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "6567594ed7f320effca7d161"
+  },
+  "name": "SSE",
+  "email": "guest@example.com",
+  "password": "$2a$10$jf4RNlmA2cur10964/vlHuaERSY/UR8j5sEtTIM17mzXEf.09csxu",
+  "pic": "http://res.cloudinary.com/piyushproj/image/upload/v1701271842/n1krjldgjkmzizbvsomb.jpg",
+  "isAdmin": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65675998d7f320effca7d168"
+  },
+  "name": "SSE",
+  "email": "suryakantmaurya2007@gmail.com",
+  "password": "$2a$10$tJe7fmISAcVzN5DbR2MsqOfIxvZTzWOanV4ke6qNuZqULJRqSCEa2",
+  "pic": "http://res.cloudinary.com/piyushproj/image/upload/v1701271951/d9lyftfp9eww992cicwa.jpg",
+  "isAdmin": false,
+  "__v": 0
+}]
