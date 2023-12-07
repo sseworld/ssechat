@@ -5,7 +5,29 @@
 
 version: 2
 updates:
-  - package-ecosystem: "" # See documentation for possible values
-    directory: "/" # Location of package manifests
-    schedule:
+  - package-ecosystem: "yarn"
+    directories:
+      - "*"
+    schedule: # Check for updates daily
+      interval: "daily"
+
+    versioning-strategy: bump # Update any dependency whose major version is different
+
+    open-pull-requests-limit: 10 # Allow Dependabot to create pull requests automatically
+    ignore: # Ignore specific dependencies or versions
+      - "@types/react-dom": "^16.13.1"
+  - package-ecosystem: "npm"
+    directories:
+      - "node_modules"
+    schedule: # Check for updates weekly
       interval: "weekly"
+    versioning-strategy: patch
+    # open-pull-requests-limit: 5
+
+    assignees: # Allow Dependabot to assign reviewers to pull requests
+      - "@johndoe"
+      - "@janedoe"
+
+    labels: # Use labels to categorize pull requests
+      - "dependabot"
+      - "version-update"
