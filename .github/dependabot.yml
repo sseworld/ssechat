@@ -26,7 +26,7 @@ updates:
 
     assignees: # Allow Dependabot to assign reviewers to pull requests
       - "@sseworld"
-      - "@janedoe"
+      # - "@janedoe"
 
     labels: # Use labels to categorize pull requests
       - "dependabot"
