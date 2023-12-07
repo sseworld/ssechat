@@ -1,3 +1,7 @@
 node_modules
+.github/updateDependabot.yml
 
 backend/.env
+
+frontend2
+Coding

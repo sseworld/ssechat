@@ -11,13 +11,13 @@ const ChatProvider = ({ children }) => {
 
   const history = useHistory();
 
-  useEffect(() => {
-    const userInfo = JSON.parse(localStorage.getItem("userInfo"));
-    setUser(userInfo);
+  // useEffect(() => {
+  //   const userInfo = JSON.parse(localStorage.getItem("userInfo"));
+  //   setUser(userInfo);
 
-    if (!userInfo) history.push("/login");
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [history]);
+  //   if (!userInfo) history.push("/login");
+  //   // eslint-disable-next-line react-hooks/exhaustive-deps
+  // }, [history]);
 
   return (
     <ChatContext.Provider
