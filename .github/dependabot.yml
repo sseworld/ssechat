@@ -16,7 +16,7 @@ updates:
     open-pull-requests-limit: 10 # Allow Dependabot to create pull requests automatically
     ignore: # Ignore specific dependencies or versions
       - "@types/react-dom": "^16.13.1"
-  - package-ecosystem: "npm"
+  - package-ecosystem: "yarn"
     directories:
       - "node_modules"
     schedule: # Check for updates weekly
